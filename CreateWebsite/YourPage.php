@@ -27,14 +27,6 @@
     $result5 = mysqli_query($conn, $sql5);
 	$row5 = mysqli_fetch_array($result5);
 	
-	$sql6 = "SELECT * FROM Xth where pid='{$row2["pid"]}'"; 
-    $result6 = mysqli_query($conn, $sql6);
-	$row6 = mysqli_fetch_array($result6);
-	
-	$sql7 = "SELECT * FROM Xllth where pid='{$row2["pid"]}'"; 
-    $result7 = mysqli_query($conn, $sql7);
-	$row7 = mysqli_fetch_array($result7);
-	
 	$sql8 = "SELECT * FROM ug where pid='{$row2["pid"]}'"; 
     $result8 = mysqli_query($conn, $sql8);
 	$row8 = mysqli_fetch_array($result8);
@@ -47,7 +39,7 @@
     $result10 = mysqli_query($conn, $sql10);
 	$row10 = mysqli_fetch_array($result10);
 	
-	$sql11 = "SELECT * FROM interest where pid='{$row2["pid"]}'"; 
+	$sql11 = "SELECT * FROM hobbies where pid='{$row2["pid"]}'"; 
     $result11 = mysqli_query($conn, $sql11);
 	$row11 = mysqli_fetch_array($result11);
 	
@@ -386,43 +378,7 @@
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
-
-	   			<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-university "></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Intermediate</h3>
-	   					<p><?php echo $row7["Xll_startYear"]." - ".$row7["Xll_endYear"] ;?></p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4><?php echo $row7["Xll_school"] ;?></h4>
-	   					<p>I had secured <?php echo $row7["per"] ;?>% marks in my 12th standard.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
 				
-				<div class="timeline-block">
-
-	   				<div class="timeline-ico">
-	   					<i class="fa fa-university"></i>
-	   				</div>
-
-	   				<div class="timeline-header">
-	   					<h3>Matriculation</h3>
-	   					<p><?php echo $row6["X_startYear"]." - ".$row6["X_endYear"] ;?></p>
-	   				</div>
-
-	   				<div class="timeline-content">
-	   					<h4><?php echo $row6["X_school"] ;?></h4>
-	   					<p>I had secured <?php echo $row6["cgpa"] ;?> CGPA in my 10th standard.</p>
-	   				</div>
-
-	   			</div> <!-- /timeline-block -->
-
    			</div> <!-- /timeline-wrap -->   			
 
    		</div> <!-- /col-twelve -->
