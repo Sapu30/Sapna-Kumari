@@ -2,7 +2,7 @@
     
 	$servername = "localhost";
 	$username = "root";
-	$password = "kanika";
+	$password = "sapna";
 	$dbname = "mywebsite";
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -212,27 +212,27 @@
 				<ul class="skill-bars">
 				   <li>
 				   	<div class="progress percent<?php echo $row5["html"]; ?>"><span><?php echo $row5[0]; ?>%</span></div>
-				   	<strong>HTML</strong>
+				   	<strong>JAVA</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent<?php echo $row5["css"]; ?>"><span><?php echo $row5[1]; ?>%</span></div>
-				   	<strong>CSS</strong>
+				   	<strong>SpringBoot</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent<?php echo $row5["php"]; ?>"><span><?php echo $row5[4]; ?>%</span></div>
-				   	<strong>PHP</strong>
+				   	<strong>GIT</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent<?php echo $row5["cpp"]; ?>"><span><?php echo $row5[2]; ?>%</span></div>
-				   	<strong>c++</strong>
+				   	<strong>OOPS</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent<?php echo $row5[3]; ?>"><span><?php echo $row5[3]; ?>%</span></div>
-				   	<strong>java</strong>
+				   	<strong>MYSQL</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent<?php echo $row5["python"]; ?>"><span><?php echo $row5[5]; ?>%</span></div>
-				   	<strong>python</strong>
+				   	<strong>PHP</strong>
 				   </li>
       
 				</ul> <!-- /skill-bars -->		
