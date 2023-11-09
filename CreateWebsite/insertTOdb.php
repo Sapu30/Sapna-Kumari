@@ -2,7 +2,7 @@
     
 	$servername = "localhost";
 	$username = "root";
-	$password = "kanika";
+	$password = "sapna";
 	$dbname = "mywebsite";
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -36,26 +36,13 @@
 			$github = $_POST["github"];
 			$insta = $_POST["insta"];*/
 			
-			$html=$_POST["html"];
-			$css=$_POST["css"];
-			$cpp=$_POST["cpp"];
-			$java=$_POST["java"];
-			$php=$_POST["php"];
-			$python=$_POST["python"];
-			
-			$X_school = $_POST["X_school"];
-			//$X_sMonth = $_POST["X_sMonth"];
-			$X_startYear = $_POST["X_startYear"];
-			//$X_eMonth = $_POST["X_eMonth"];
-			$X_endYear = $_POST["X_endYear"];
-			$cgpa = $_POST["cgpa"];
-			
-			$Xll_school = $_POST["Xll_school"];
-			//$Xll_sMonth = $_POST["Xll_sMonth"];
-			$Xll_startYear = $_POST["Xll_startYear"];
-			//$Xll_eMonth = $_POST["Xll_eMonth"];
-			$Xll_endYear = $_POST["Xll_endYear"];
-			$per = $_POST["per"];
+			$html=$_POST["java"];
+			$css=$_POST["springboot"];
+			$cpp=$_POST["git"];
+			$java=$_POST["oops"];
+			$php=$_POST["mysql"];
+			$python=$_POST["php"];
+		
 			
 			$UG_course = $_POST["UG_course"];
 			$UG_university = $_POST["UG_university"];
